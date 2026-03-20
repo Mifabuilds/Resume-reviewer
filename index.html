@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ResumeCheck — AI Resume Reviewer</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header>
+  <div class="logo-mark">R</div>
+  <h1>ResumeCheck <span>— AI Resume Reviewer</span></h1>
+</header>
+
+<div class="main">
+  <div class="hero">
+    <h2>Get <em>honest feedback</em><br>on your resume</h2>
+    <p>Paste your resume text, add the job description, and get detailed AI-powered analysis in seconds.</p>
+  </div>
+
+  <div class="card" id="inputCard">
+    <label class="input-label">Your Resume</label>
+    <textarea id="resumeText" placeholder="Paste your full resume text here…" rows="8"></textarea>
+
+    <label class="input-label">Job Description <span class="optional">(optional but recommended)</span></label>
+    <textarea id="jobDesc" placeholder="Paste the job posting you're applying to…" rows="5"></textarea>
+
+    <label class="input-label">Focus Areas</label>
+    <div class="options-row" id="chips">
+      <div class="chip active" data-val="Overall quality">Overall quality</div>
+      <div class="chip active" data-val="ATS compatibility">ATS compatibility</div>
+      <div class="chip" data-val="Bullet point impact">Bullet point impact</div>
+      <div class="chip" data-val="Skills gap">Skills gap</div>
+      <div class="chip" data-val="Tone & language">Tone & language</div>
+    </div>
+
+    <button class="btn-primary" id="analyzeBtn">Analyse My Resume →</button>
+  </div>
+
+  <div class="loader" id="loader">
+    <div class="loader-dots"><span></span><span></span><span></span></div>
+    <p>Reviewing your resume…</p>
+  </div>
+
+  <div id="results"></div>
+</div>
+
+<script src="js/api.js"></script>
+<script src="js/render.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
