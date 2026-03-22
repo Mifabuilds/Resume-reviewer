@@ -1,4 +1,4 @@
-# ResumeCheck — AI Resume Reviewer
+# Resume Reviewer — AI Resume Reviewer
 
 An AI-powered resume analysis tool built with vanilla HTML, CSS, and JavaScript using the Anthropic Claude API.
 
