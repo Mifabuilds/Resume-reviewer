@@ -7,8 +7,6 @@ An AI-powered resume analysis tool built with vanilla HTML, CSS, and JavaScript 
 - Anthropic Claude API (`claude-sonnet-4-20250514`)
 - No build tools or frameworks required
 
-```
-
 ## Features
 - Paste resume text + optional job description
 - Select focus areas (ATS, bullet impact, skills gap, etc.)
