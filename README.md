@@ -7,16 +7,6 @@ An AI-powered resume analysis tool built with vanilla HTML, CSS, and JavaScript 
 - Anthropic Claude API (`claude-sonnet-4-20250514`)
 - No build tools or frameworks required
 
-## Project Structure
-```
-resume-reviewer/
-├── index.html          # App shell & markup
-├── css/
-│   └── style.css       # All styles
-└── js/
-    ├── api.js          # Anthropic API call + prompt
-    ├── render.js       # Builds results UI from response data
-    └── main.js         # Event listeners & app flow
 ```
 
 ## Features
